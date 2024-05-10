@@ -1,0 +1,149 @@
+body {
+    background: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmN1ZTNpNHF1YXg0ZGFpZGhoaDk1cDNzMzRueWhwdHhtMXNpN3JzNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6vXTpomeZEyxufGU/giphy.gif) no-repeat center / cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    margin: 0;
+    opacity: 0.9; /* Adjusting transparency */
+}
+
+
+.profile img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    /* Initial styles of the element */
+    transition: transform 0.8s ease;
+    margin-right: 10px; 
+}
+
+.profile img:hover {
+    /* Styles applied on hover */
+    transform: scale(1.1);
+} 
+
+.profile h1 {
+    color: #ffffff; /* Changing the color of heading text */
+    /* Initial styles of the element */
+     transition: transform 0.9s ease;
+}
+.h1:hover  {
+    color: #ffffff;
+    /* Styles applied on hover */
+    transform: scale(1.1);
+  }
+
+.profile p {
+    color: #ffffff; /* Changing the color of paragraph text */
+     /* Initial styles of the element */
+     transition: transform 0.8s ease;
+}
+ 
+.profile p:hover  {
+    color: #ffffff;
+    /* Styles applied on hover */
+    transform: scale(1.1);
+  }
+
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+   
+   
+}
+
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+     /* Initial styles of the element */
+     transition: transform 0.8s ease;
+     font-size: 24px;
+     margin-right: 8px; /* adding margin to the right of the icon to create space between the icon and text */
+}
+
+social-icons img-with-text {
+    display: inline-flex; /* setting block type for the wrapper to have the text and icon placed next to each other */
+    align-items: center; /* aligning items vertically */
+  }
+
+.social-icons img:hover  {
+    color: #ffffff;
+    /* Styles applied on hover */
+    transform: scale(1.2);
+  }
+
+span {
+    color: #ffffff;
+    width: max-content;
+    text-align: center;
+
+}
+
+h1{
+  
+    display: grid;
+    justify-content: center;
+    align-items: center;
+      /* Initial styles of the element */
+      transition: transform 0.8s ease;
+}
+
+.h1:hover {
+    /* Styles applied on hover */
+    transform: scale(1.1);
+}
+
+
+
+h2{
+
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      /* Initial styles of the element */
+      transition: transform 0.8s ease;
+}
+
+
+.h2:hover {
+    /* Styles applied on hover */
+    transform: scale(1.2);
+}
+
+
+h3 {
+    transition: transform 0.8s ease;
+}
+
+h3:hover{
+    /* Styles applied on hover */
+    transform: scale(1.1);
+}
+.profile {
+   
+    border-radius: 5%;
+        backdrop-filter: blur(10px);
+        background-color: rgba(225, 154, 248, 0.5); /* transparent background color */
+        min-height: 10vh;
+        display: flexbox; 
+        padding: 15px 30px;
+        grid-template-columns: minmax(300px, 300px);
+        justify-content: center;
+        align-items: c
+     
+
+}
