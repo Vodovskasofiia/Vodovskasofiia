@@ -1,7 +1,6 @@
 - 👋 Hi, I’m Sofiia
 - 👀 I’m interested in IT
-- 🌱 I’m currently learning  HTML, Css, JV
-- 📫 How to reach me mikulina.sofiya2008@gmail.com
+- 🌱 I’m currently learning  HTML, Css
 - 😄 Pronouns @ Sofiia_Lady
 
 <!---
